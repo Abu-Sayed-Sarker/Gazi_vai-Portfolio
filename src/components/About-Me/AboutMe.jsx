@@ -25,7 +25,10 @@ const AboutMe = () => {
     });
   }, []);
   return (
-    <div className="relative w-full py-16 px-4 md:px-20 overflow-hidden">
+    <div
+      id="about"
+      className="relative w-full py-16 px-4 md:px-20 overflow-hidden"
+    >
       {/* Animated background */}
       <div className="absolute top-0 left-0 w-full h-full z-0 " />
 

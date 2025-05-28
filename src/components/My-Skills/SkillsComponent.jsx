@@ -53,7 +53,10 @@ export default function SkillsComponent() {
   }, []);
 
   return (
-    <div className="bg-gradient-to-b from-white to-cyan-50 py-10 px-4">
+    <div
+      id="skills"
+      className="bg-gradient-to-b from-white to-cyan-50 py-10 px-4"
+    >
       <h2 className="text-4xl font-bold text-center text-teal-600 mb-10">
         My Skills
       </h2>

@@ -79,7 +79,7 @@ const ProjectsShowcase = () => {
 
   return (
     <div className="bg-gray-50">
-      <div id="portfolio" className="container mx-auto px-4 pt-20">
+      <div id="projects" className="container mx-auto px-4 pt-20">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-center text-teal-600 mb-10">
             My Projects

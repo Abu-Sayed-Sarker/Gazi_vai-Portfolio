@@ -1,5 +1,7 @@
 import AboutMe from "../components/About-Me/AboutMe";
 import ClientReviews from "../components/Client-Review/ClientReviews";
+import Footer from "../components/Footer/Footer";
+import GetInTouch from "../components/Get-In-Touch/GetInTouch";
 import Hero from "../components/Hero/Hero";
 import ProjectsShowcase from "../components/My-Projects/ProjectsShowcase";
 import SkillsComponent from "../components/My-Skills/SkillsComponent";
@@ -16,6 +18,8 @@ export default function HomePage() {
       <WorkExperienceCard />
       <ProjectsShowcase />
       <ClientReviews />
+      <GetInTouch />
+      <Footer />
     </div>
   );
 }
