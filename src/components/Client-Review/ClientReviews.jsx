@@ -7,26 +7,26 @@ const reviews = [
   {
     name: "maxilef",
     country: "United States",
-    avatar: "/avatar1.png",
+    avatar: "https://randomuser.me/api/portraits/men/32.jpg",
     timeAgo: "2 weeks ago",
     review:
-      "Shovon and his team are so helpful and they are very passionate about their work. You can trust you are in good hands with Shovon and his team as they want to see you succeed and are happy to help, answer any questions, and make any changes.",
+      "His communication is clear and timely, and he tackles challenges head-on with practical solutions. It's been a smooth and reliable partnership, and I'm happy to keep working with Gazi on future projects.",
   },
   {
     name: "imdjohirulfin01",
     country: "United States",
-    avatar: "/avatar2.png",
+    avatar: "https://randomuser.me/api/portraits/men/45.jpg",
     timeAgo: "3 months ago",
     review:
-      "Collaborating with Shovon has been a great experience time and time again. He brings both talent and dedication to every project, handling challenges with ease and delivering polished, high-quality work.",
+      "Throughout the process, he showed remarkable attentiveness and a positive approach. Looking forward to future projects together.",
   },
   {
     name: "davisdebard",
     country: "United States",
-    avatar: "/avatar3.png",
+    avatar: "https://randomuser.me/api/portraits/men/60.jpg",
     timeAgo: "1 month ago",
     review:
-      "I've consistently been impressed with Shovon's expertise and reliable execution. He continues to be a valuable asset to our AI projects, and I look forward to working with him again.",
+      "It was great working with Gazi! I hope to work with him in the future as well. Great coders.",
   },
 ];
 
@@ -43,12 +43,14 @@ export default function ClientReviews() {
 
   return (
     <div className="bg-gray-50 py-16 px-4 md:px-10">
-      <h2 className="text-4xl font-bold text-center mb-12">Client Review</h2>
+      <h2 className="text-5xl font-bold text-center  inter mb-5">
+        Client Review
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
         {reviews.map((r, i) => (
           <motion.div
             key={i}
-            className="review-box bg-white p-6 rounded-2xl shadow-md"
+            className="review-box bg-white p-6 rounded-2xl shadow-md mt-8"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: i * 0.2 }}
@@ -64,14 +66,19 @@ export default function ClientReviews() {
                 />
               </div>
               <div>
-                <div className="font-semibold text-sm">{r.name}</div>
-                <div className="text-xs text-gray-500">{r.country}</div>
+                <div className="font-semibold text-base inter">{r.name}</div>
+                <div className="text-base text-gray-50 inter 0">
+                  {r.country}
+                </div>
               </div>
             </div>
             <div className="flex items-center text-yellow-500 text-sm mb-1">
-              {"★★★★★"} <span className="text-gray-500 ml-2">{r.timeAgo}</span>
+              {"★★★★★"}{" "}
+              <span className="text-gray-500 ml-2 inter text-base ">
+                {r.timeAgo}
+              </span>
             </div>
-            <blockquote className="text-gray-700 text-sm border-l-4 border-teal-500 pl-4 italic">
+            <blockquote className="text-gray-700 text-sm border-l-4 border-teal-500 pl-4 italic inter text-base">
               "{r.review}"
             </blockquote>
           </motion.div>

@@ -81,12 +81,12 @@ const ProjectsShowcase = () => {
     <div className="bg-gray-50">
       <div id="projects" className="container mx-auto px-4 pt-20">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-center text-teal-600 mb-10">
+          <h2 className="text-5xl font-bold text-center text-teal-600 mb-10 inter">
             My Projects
           </h2>
 
           <Fade delay={300} triggerOnce>
-            <p className="text-gray-700 mb-10 max-w-2xl mx-auto">
+            <p className="text-gray-700 mb-10 max-w-2xl mx-auto inter">
               Explore a diverse portfolio of completed works that showcase our
               creativity, technical expertise, and commitment to client
               satisfaction. Each project reflects our passion for quality and
@@ -114,11 +114,11 @@ const ProjectsShowcase = () => {
                   boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
                   transition: { duration: 0.3 },
                 }}
-                className="border rounded-lg overflow-hidden shadow-sm bg-white transition"
+                className="border rounded-2xl overflow-hidden shadow-sm bg-white hover:bg-purple-50 transition inter"
               >
                 {/* Project Image */}
                 <motion.div
-                  className="h-[267px] bg-gray-200 overflow-hidden"
+                  className="h-[267px] bg-gray-200 overflow-hidden "
                   whileHover={{ scale: 1.05 }}
                   // transition={{ duration: 0.4 }}
                 >

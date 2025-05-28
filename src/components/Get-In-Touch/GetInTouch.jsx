@@ -22,19 +22,19 @@ export default function GetInTouch() {
       id="contact"
       className="flex flex-col items-center justify-center  py-16 px-6"
     >
-      <h2 className="text-3xl font-bold mb-10">Get In Touch</h2>
+      <h2 className="text-5xl font-bold mb-10 inter">Get In Touch</h2>
       <div
         ref={containerRef}
         className="bg-white rounded-2xl shadow-xl border p-8 max-w-3xl text-center"
       >
-        <p className="text-gray-600 mb-8 text-xl">
+        <p className="text-gray-600 mb-8 text-xl inter">
           Interested in working together? Feel free to reach out for
           collaborations or just a friendly hello!
         </p>
         <div className="flex justify-center gap-4">
           <a
             href="#"
-            className="inline-flex items-center gap-2 px-5 py-2 border border-gray-200 rounded-lg shadow hover:shadow-md transition-shadow"
+            className="inline-flex items-center gap-2 px-5 py-2 border border-gray-200 hover:border-teal-500 rounded-lg shadow hover:shadow-md  transform transition-all duration-300 ease-in-out inter"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ export default function GetInTouch() {
           </a>
           <a
             href="#"
-            className="inline-flex items-center gap-2 px-5 py-2 border border-gray-200 rounded-lg shadow hover:shadow-md transition-shadow"
+            className="inline-flex items-center gap-2 px-5 py-2 border border-gray-200 hover:border-green-500 rounded-lg shadow hover:shadow-md transform transition-all duration-300 ease-in-out inter"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

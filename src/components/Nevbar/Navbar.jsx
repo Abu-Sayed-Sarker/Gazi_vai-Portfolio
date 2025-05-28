@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import logo from "../../assets/gazi-vai-logo.png";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -18,7 +19,7 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold text-teal-500">Gazi</h1>
+        <h1 className="text-3xl inter font-bold text-[#0369a1]">Gazi</h1>
         <div className="space-x-6 hidden md:flex items-center">
           {["About", "Skills", "Projects", "Contact"].map((item) => (
             <a
