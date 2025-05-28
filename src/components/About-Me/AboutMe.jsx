@@ -2,7 +2,9 @@ import { motion } from "framer-motion";
 import image from "../../assets/Gazi vai.png";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
-
+import { FaRegClock } from "react-icons/fa6";
+import { MdOutlineMail } from "react-icons/md";
+import { FiLinkedin } from "react-icons/fi";
 const AboutMe = () => {
   const imageRef = useRef(null);
   const containerRef = useRef(null);
@@ -58,43 +60,53 @@ const AboutMe = () => {
           transition={{ duration: 0.8 }}
           className="max-w-xl text-center lg:text-left"
         >
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">About Me</h2>
-          <h3 className="text-2xl font-semibold text-gray-700 mb-3">
-            Hello! I'm Cloud
+          <h2 className="text-4xl font-bold text-gray-900 mb-4 inter">
+            About Me
+          </h2>
+          <h3 className="text-2xl font-semibold text-gray-700 mb-3 inter">
+            Hello, I'm a{" "}
+            <span className="text-blue-600 font-semibold inter">
+              Mobile App Developer
+            </span>
           </h3>
-          <p className="text-gray-600 leading-relaxed mb-4">
-            A seasoned AI developer with 5+ years of experience in building
+          <p className="text-gray-600 leading-relaxed mb-4 inter">
+            A seasoned developer with 5+ years of experience building
             cutting-edge solutions, specializing in{" "}
-            <span className="text-blue-600 font-semibold">
+            <span className="text-blue-600 font-semibold inter">
+              Mobile Applications
+            </span>
+            ,{" "}
+            <span className="text-blue-600 font-semibold inter">
               Artificial Intelligence
             </span>
             ,{" "}
-            <span className="text-blue-600 font-semibold">
+            <span className="text-blue-600 font-semibold inter">
               Natural Language Processing (NLP)
             </span>
             , and{" "}
-            <span className="text-blue-600 font-semibold">
-              full-stack development
+            <span className="text-blue-600 font-semibold inter">
+              Full-Stack Development
             </span>
             . I transform complex problems into scalable, intuitive applications
-            powered by machine learning and modern web technologies.
+            powered by machine learning and modern mobile/web technologies.
           </p>
-          <p className="italic text-gray-600 mb-6">
+          <p className="italic text-gray-600 mb-6 inter">
             Passionate about crafting{" "}
-            <strong>high-performance AI systems</strong> and{" "}
+            <strong>high-performance AI systems</strong>,{" "}
+            <strong>engaging mobile experiences</strong>, and{" "}
             <strong>user-centric interfaces</strong>, I bridge the gap between
             advanced algorithms and real-world usability.
           </p>
 
           {/* Badges */}
           <div className="flex flex-wrap gap-3 justify-center lg:justify-start mb-4">
-            <span className="bg-blue-500 text-white text-sm px-4 py-1 rounded-full shadow">
-              ⭐ 5.0 Rating (200+ Reviews)
+            <span className="bg-[#0369a1] text-white text-sm px-4 py-2 rounded-full shadow inter">
+              ⭐ 5.0 Rating (300+ Reviews)
             </span>
-            <span className="bg-green-500 text-white text-sm px-4 py-1 rounded-full shadow">
-              🚀 Fast Delivery
+            <span className="bg-[#047857] text-white text-sm px-4 py-2 rounded-full shadow inter flex items-center gap-2">
+              <FaRegClock className="" /> Fast Delivery
             </span>
-            <span className="bg-purple-600 text-white text-sm px-4 py-1 rounded-full shadow">
+            <span className="bg-[#4338ca] text-white text-sm px-4 py-2 rounded-full shadow inter">
               🥈 Level 2 Seller
             </span>
           </div>
@@ -105,17 +117,19 @@ const AboutMe = () => {
               href="https://www.linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 border border-gray-300 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
+              className="flex items-center gap-2 border  hover:border-[#009999] text-[#009999] px-4 py-2 rounded-full bg-white   shadow-md hover:shadow-2xl hover:shadow-[#3f3f3f] transform transition-all duration-300 ease-in-out inter "
             >
-              <i className="fab fa-linkedin" /> LinkedIn
+              <i className="fab fa-linkedin" />
+              <FiLinkedin /> LinkedIn
             </a>
             <a
               href="https://www.fiverr.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 border border-green-400 text-green-600 px-4 py-2 rounded-lg hover:bg-green-50 transition"
+              className="flex items-center gap-2 border border-green-400 text-green-600 px-4 py-2 rounded-full bg-white hover:bg-green-50 hover:text-green-700 shadow-md hover:shadow-2xl hover:shadow-[#3f3f3f] transform transition-all duration-300 ease-in-out inter "
             >
-              <i className="fas fa-envelope" /> Contact on Fiverr
+              <i className="fas fa-envelope" /> <MdOutlineMail />
+              Contact on Fiverr
             </a>
           </div>
         </motion.div>

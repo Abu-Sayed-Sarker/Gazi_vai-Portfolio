@@ -15,7 +15,7 @@ export default function WorkExperienceCard() {
 
   return (
     <div className="flex flex-col items-center px-4 py-12 bg-white">
-      <h1 className="text-4xl font-bold mb-10">Work Experience</h1>
+      <h1 className="text-5xl font-bold mb-10 inter">Work Experience</h1>
 
       <motion.div
         className="experience-box bg-white shadow-xl rounded-2xl p-6 md:p-10 max-w-5xl w-full"
@@ -23,18 +23,23 @@ export default function WorkExperienceCard() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
       >
-        <div className="flex flex-col md:flex-row gap-6">
-          <div className="w-28 h-28 rounded-xl border-4 border-teal-500 overflow-hidden mx-auto md:mx-0">
-            <img
-              src={Image} // Replace with actual image path
-              alt="Profile"
-              width={112}
-              height={112}
-              className="object-top w-full"
-            />
+        <div className="flex flex-col md:flex-row gap-6 ">
+          <div className="w-28 h-28 rounded-xl p-[4px] bg-gradient-to-br from-[#009999] to-[#f1f5f9] mx-auto md:mx-0">
+            <div className="w-full h-full rounded-[0.65rem] bg-white ">
+              <img
+                src={Image}
+                alt="Profile"
+                width={112}
+                height={112}
+                className="object-top w-full h-full"
+              />
+            </div>
           </div>
+
           <div className="flex-1">
-            <h2 className="text-2xl font-semibold">Freelance AI Developer</h2>
+            <h2 className="text-3xl font-bold text-[#1f2937] inter">
+              Freelance APP Developer
+            </h2>
             <div className="text-sm text-blue-600 font-semibold mt-1">
               Level 2 Seller
             </div>

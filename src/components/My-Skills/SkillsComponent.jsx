@@ -55,9 +55,9 @@ export default function SkillsComponent() {
   return (
     <div
       id="skills"
-      className="bg-gradient-to-b from-white to-cyan-50 py-10 px-4"
+      className="bg-gradient-to-t from-[#f3f4f6] to-[#f9fafb] py-10 px-4"
     >
-      <h2 className="text-4xl font-bold text-center text-teal-600 mb-10">
+      <h2 className="text-4xl font-bold text-center text-[#009999] mb-10">
         My Skills
       </h2>
       <div
@@ -69,15 +69,15 @@ export default function SkillsComponent() {
             key={index}
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300 }}
-            className="bg-white rounded-2xl shadow-lg p-10"
+            className="bg-white rounded-2xl shadow-lg p-10 border hover:border-[#b7ecec]"
           >
-            <div className="bg-gradient-to-tr from-teal-400 to-cyan-500 text-white font-bold text-3xl w-16 h-16 flex items-center justify-center rounded-md mb-4">
+            <div className="bg-gradient-to-br from-[#009999] to-[#f1f5f9] text-white font-bold text-3xl w-12 h-12 flex items-center justify-center rounded-md mb-4">
               {skill.icon}
             </div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">
+            <h3 className="text-lg font-semibold text-gray-900 mb-2 inter">
               {skill.title}
             </h3>
-            <p className="text-sm text-gray-600">{skill.description}</p>
+            <p className="text-sm text-gray-600 inter">{skill.description}</p>
           </motion.div>
         ))}
       </div>
