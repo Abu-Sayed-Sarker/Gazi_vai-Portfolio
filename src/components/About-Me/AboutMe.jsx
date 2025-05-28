@@ -114,7 +114,7 @@ const AboutMe = () => {
           {/* Buttons */}
           <div className="flex gap-4 justify-center lg:justify-start">
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/gazi-alauddin-498b73259/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 border  hover:border-[#009999] text-[#009999] px-4 py-2 rounded-full bg-white   shadow-md hover:shadow-2xl hover:shadow-[#3f3f3f] transform transition-all duration-300 ease-in-out inter "
@@ -123,7 +123,7 @@ const AboutMe = () => {
               <FiLinkedin /> LinkedIn
             </a>
             <a
-              href="https://www.fiverr.com"
+              href="https://www.fiverr.com/app_oreo"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 border border-green-400 text-green-600 px-4 py-2 rounded-full bg-white hover:bg-green-50 hover:text-green-700 shadow-md hover:shadow-2xl hover:shadow-[#3f3f3f] transform transition-all duration-300 ease-in-out inter "

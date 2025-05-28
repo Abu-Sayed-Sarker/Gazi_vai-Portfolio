@@ -25,7 +25,7 @@ export default function GetInTouch() {
       <h2 className="text-5xl font-bold mb-10 inter">Get In Touch</h2>
       <div
         ref={containerRef}
-        className="bg-white rounded-2xl shadow-xl border p-8 max-w-3xl text-center"
+        className="bg-white rounded-2xl shadow-xl hover:shadow-2xl border p-8 max-w-3xl text-center transform transition-all duration-300 ease-in-out inter"
       >
         <p className="text-gray-600 mb-8 text-xl inter">
           Interested in working together? Feel free to reach out for
@@ -33,8 +33,9 @@ export default function GetInTouch() {
         </p>
         <div className="flex justify-center gap-4">
           <a
-            href="#"
+            href="https://www.linkedin.com/in/gazi-alauddin-498b73259/"
             className="inline-flex items-center gap-2 px-5 py-2 border border-gray-200 hover:border-teal-500 rounded-lg shadow hover:shadow-md  transform transition-all duration-300 ease-in-out inter"
+            target="_blank"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -47,8 +48,9 @@ export default function GetInTouch() {
             LinkedIn
           </a>
           <a
-            href="#"
+            href="https://www.fiverr.com/app_oreo"
             className="inline-flex items-center gap-2 px-5 py-2 border border-gray-200 hover:border-green-500 rounded-lg shadow hover:shadow-md transform transition-all duration-300 ease-in-out inter"
+            target="_blank"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

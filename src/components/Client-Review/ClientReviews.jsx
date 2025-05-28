@@ -1,28 +1,29 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 import gsap from "gsap";
+import gosta from "../../assets/gosta.png";
+import zubeiri from "../../assets/zubeiri.png";
+import thai from "../../assets/thai.png";
 
 const reviews = [
   {
-    name: "maxilef",
-    country: "United States",
-    avatar: "https://randomuser.me/api/portraits/men/32.jpg",
+    name: "Gustavo Amoros",
+    country: "Spain",
+    avatar: gosta,
     timeAgo: "2 weeks ago",
-    review:
-      "His communication is clear and timely, and he tackles challenges head-on with practical solutions. It's been a smooth and reliable partnership, and I'm happy to keep working with Gazi on future projects.",
+    review: "Very fast and very understood the project.. Go On !!",
   },
   {
-    name: "imdjohirulfin01",
+    name: "Thai",
     country: "United States",
-    avatar: "https://randomuser.me/api/portraits/men/45.jpg",
+    avatar: thai,
     timeAgo: "3 months ago",
-    review:
-      "Throughout the process, he showed remarkable attentiveness and a positive approach. Looking forward to future projects together.",
+    review: "Giza team is very good team work!",
   },
   {
-    name: "davisdebard",
+    name: "Zubeiri Aman",
     country: "United States",
-    avatar: "https://randomuser.me/api/portraits/men/60.jpg",
+    avatar: zubeiri,
     timeAgo: "1 month ago",
     review:
       "It was great working with Gazi! I hope to work with him in the future as well. Great coders.",
@@ -66,9 +67,7 @@ export default function ClientReviews() {
               </div>
               <div>
                 <div className="font-semibold text-base inter">{r.name}</div>
-                <div className="text-base text-gray-50 inter 0">
-                  {r.country}
-                </div>
+                <div className="text-xs inter 0">{r.country}</div>
               </div>
             </div>
             <div className="flex items-center text-yellow-500 text-sm mb-1">
