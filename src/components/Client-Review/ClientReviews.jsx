@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 import gsap from "gsap";
-import Image from "../../assets/GAzi vai.png";
 
 const reviews = [
   {
