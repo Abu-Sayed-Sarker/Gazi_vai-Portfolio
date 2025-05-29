@@ -20,9 +20,11 @@ export default function GetInTouch() {
   return (
     <section
       id="contact"
-      className="flex flex-col items-center justify-center  py-16 px-6"
+      className="flex flex-col items-center justify-center  md:py-16 px-6"
     >
-      <h2 className="text-5xl font-bold mb-10 inter">Get In Touch</h2>
+      <h2 className="text-4xl font-bold  inter  md:text-5xl lg:text-6xl inter text-center text-[#009999] mb-10 mt-10">
+        Get In Touch
+      </h2>
       <div
         ref={containerRef}
         className="bg-white rounded-2xl shadow-xl hover:shadow-2xl border p-8 max-w-3xl text-center transform transition-all duration-300 ease-in-out inter"
@@ -31,11 +33,13 @@ export default function GetInTouch() {
           Interested in working together? Feel free to reach out for
           collaborations or just a friendly hello!
         </p>
-        <div className="flex justify-center gap-4">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+          {/* LinkedIn */}
           <a
             href="https://www.linkedin.com/in/gazi-alauddin-498b73259/"
-            className="inline-flex items-center gap-2 px-5 py-2 border border-gray-200 hover:border-teal-500 rounded-lg shadow hover:shadow-md  transform transition-all duration-300 ease-in-out inter"
+            className="inline-flex items-center gap-2 px-5 py-2 border border-gray-200 hover:border-teal-500 rounded-lg shadow hover:shadow-md transition-all duration-300 ease-in-out"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -47,10 +51,13 @@ export default function GetInTouch() {
             </svg>
             LinkedIn
           </a>
+
+          {/* Fiverr */}
           <a
             href="https://www.fiverr.com/app_oreo"
-            className="inline-flex items-center gap-2 px-5 py-2 border border-gray-200 hover:border-green-500 rounded-lg shadow hover:shadow-md transform transition-all duration-300 ease-in-out inter"
+            className="inline-flex items-center gap-2 px-5 py-2 border border-gray-200 hover:border-green-500 rounded-lg shadow hover:shadow-md transition-all duration-300 ease-in-out"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

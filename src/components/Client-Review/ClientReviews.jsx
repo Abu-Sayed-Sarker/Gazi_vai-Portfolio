@@ -42,11 +42,11 @@ export default function ClientReviews() {
   }, []);
 
   return (
-    <div className="bg-gray-50 py-16 px-4 md:px-10">
-      <h2 className="text-5xl font-bold text-center  inter mb-5">
+    <div className="bg-gray-50 md:py-16 px-4 md:px-10">
+      <h2 className="text-4xl font-bold  inter  md:text-5xl lg:text-6xl inter text-center text-[#000] mb-10 pt-10">
         Client Review
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-6 max-w-7xl mx-auto">
         {reviews.map((r, i) => (
           <motion.div
             key={i}

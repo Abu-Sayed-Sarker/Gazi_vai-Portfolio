@@ -16,7 +16,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="bg-gradient-to-b from-teal-500 to-teal-400 pt-36 pb-20 text-center text-white relative">
+    <section className="bg-gradient-to-b from-teal-500 to-teal-400 pt-[1rem] md:pt-36 pb-20 text-center text-white relative">
       <div className=" container mx-auto px-4 mt-32">
         <motion.h1
           initial={{ opacity: 0, y: -30 }}

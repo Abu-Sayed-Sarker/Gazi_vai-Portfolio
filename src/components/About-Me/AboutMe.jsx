@@ -58,9 +58,9 @@ const AboutMe = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="max-w-xl text-center lg:text-left"
+          className="max-w-xl  lg:text-left text-justify"
         >
-          <h2 className="text-4xl font-bold text-gray-900 mb-4 inter">
+          <h2 className="text-4xl font-bold text-gray-900 mb-8 inter  md:text-5xl lg:text-6xl inter text-center">
             About Me
           </h2>
           <h3 className="text-2xl font-semibold text-gray-700 mb-3 inter">
@@ -112,23 +112,26 @@ const AboutMe = () => {
           </div>
 
           {/* Buttons */}
-          <div className="flex gap-4 justify-center lg:justify-start">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
+            {/* LinkedIn Button */}
             <a
               href="https://www.linkedin.com/in/gazi-alauddin-498b73259/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 border  hover:border-[#009999] text-[#009999] px-4 py-2 rounded-full bg-white   shadow-md hover:shadow-2xl hover:shadow-[#3f3f3f] transform transition-all duration-300 ease-in-out inter "
+              className="flex items-center gap-2 border hover:border-[#009999] text-[#009999] px-4 py-2 rounded-full bg-white shadow-md hover:shadow-2xl hover:shadow-[#3f3f3f] transition-all duration-300 ease-in-out"
             >
-              <i className="fab fa-linkedin" />
-              <FiLinkedin /> LinkedIn
+              <FiLinkedin className="text-lg" />
+              LinkedIn
             </a>
+
+            {/* Fiverr Button */}
             <a
               href="https://www.fiverr.com/app_oreo"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 border border-green-400 text-green-600 px-4 py-2 rounded-full bg-white hover:bg-green-50 hover:text-green-700 shadow-md hover:shadow-2xl hover:shadow-[#3f3f3f] transform transition-all duration-300 ease-in-out inter "
+              className="flex items-center gap-2 border border-green-400 text-green-600 px-4 py-2 rounded-full bg-white hover:bg-green-50 hover:text-green-700 shadow-md hover:shadow-2xl hover:shadow-[#3f3f3f] transition-all duration-300 ease-in-out"
             >
-              <i className="fas fa-envelope" /> <MdOutlineMail />
+              <MdOutlineMail className="text-lg" />
               Contact on Fiverr
             </a>
           </div>

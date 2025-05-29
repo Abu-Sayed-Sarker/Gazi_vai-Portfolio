@@ -16,7 +16,9 @@ export default function WorkExperienceCard() {
 
   return (
     <div className="flex flex-col items-center px-4 py-12 bg-white">
-      <h1 className="text-6xl font-bold mb-10 inter">Work Experience</h1>
+      <h1 className=" md:text-5xl text-4xl lg:text-6xl font-bold mb-10 inter text-center">
+        Work Experience
+      </h1>
 
       <motion.div
         className="experience-box bg-white shadow-xl rounded-2xl p-6 md:p-10 max-w-5xl w-full hover:shadow-2xl transform transition-all duration-300 hover:shadow-[#696868] ease-in-out"
@@ -37,16 +39,19 @@ export default function WorkExperienceCard() {
             </div>
           </div>
 
-          <div className="flex-1">
-            <h2 className="text-4xl font-bold text-[#1f2937] inter">
+          <div className="flex-1 ">
+            <h2 className="text-4xl font-bold text-[#1f2937] inter ">
               Freelance APP Developer
             </h2>
             <div>
-              <div className="text-sm inter flex items-center gap-3 text-blue-600 font-semibold  bg-blue-100  px-2 py-1  rounded-full w-1/5 mt-3">
-                <IoMdCheckmarkCircle /> Level 2 Seller
+              <div className=" w-full sm:w-1/2 mt-3">
+                <h1 className="text-sm inter flex items-center gap-3 text-blue-600 font-semibold  bg-blue-100  px-2 py-1  rounded-full w-1/2 whitespace-nowrap">
+                  {" "}
+                  <IoMdCheckmarkCircle /> Level 2 Seller
+                </h1>
               </div>{" "}
             </div>
-            <p className="mt-3 text-gray-700 text-base inter leading-relaxed">
+            <p className="mt-3 text-gray-700 text-base inter leading-relaxed text-justify">
               I provide specialized app development services on Fiverr, helping
               clients build high-performance mobile applications tailored to
               their unique business needs. With a strong focus on usability,
@@ -54,7 +59,7 @@ export default function WorkExperienceCard() {
               create real value and impact for businesses.
             </p>
 
-            <div className="flex flex-wrap gap-6 mt-6">
+            <div className="flex justify-center items-start md:items-center flex-wrap gap-6 mt-6">
               <div className="text-center bg-white rounded-lg shadow-md  py-3 px-6 border border-gray-200 hover:shadow-2xl ">
                 <div className="text-[#009999] text-3xl font-bold">200+</div>
                 <div className="text-base inter text-gray-600 mt-2 ">

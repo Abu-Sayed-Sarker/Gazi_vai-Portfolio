@@ -79,9 +79,9 @@ const ProjectsShowcase = () => {
 
   return (
     <div className="bg-gray-50">
-      <div id="projects" className="container mx-auto px-4 pt-20">
+      <div id="projects" className="container mx-auto px-4 md:pt-20">
         <div className="text-center mb-12">
-          <h2 className="text-5xl font-bold text-center text-teal-600 mb-10 inter">
+          <h2 className="text-4xl font-bold  inter  md:text-5xl lg:text-6xl inter text-center text-[#009999] mb-10 pt-10">
             My Projects
           </h2>
 
@@ -118,7 +118,7 @@ const ProjectsShowcase = () => {
               >
                 {/* Project Image */}
                 <motion.div
-                  className="h-[267px] bg-gray-200 overflow-hidden "
+                  className="md:h-[267px] bg-gray-200 overflow-hidden "
                   whileHover={{ scale: 1.05 }}
                   // transition={{ duration: 0.4 }}
                 >

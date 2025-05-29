@@ -55,8 +55,8 @@ export default function SkillsComponent() {
 
   return (
     <div id="skills">
-      <div className="bg-gradient-to-t from-[#f3f4f6] to-[#f9fafb] py-10  px-4">
-        <h2 className="text-4xl font-bold text-center text-[#009999] mb-10 mt-10">
+      <div className="bg-gradient-to-t from-[#f3f4f6] to-[#f9fafb] md:py-10  px-4">
+        <h2 className="text-4xl font-bold  inter  md:text-5xl lg:text-6xl inter text-center text-[#009999] mb-10 pt-10">
           My Skills
         </h2>
         <div
