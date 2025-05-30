@@ -5,40 +5,40 @@ import { div } from "framer-motion/client";
 
 const skills = [
   {
-    title: "Data Analysis",
-    icon: "D",
+    title: "Mobile UI/UX Design",
+    icon: "🎨",
     description:
-      "Extracting meaningful insights from complex datasets to drive decision-making.",
+      "Designing intuitive and engaging user interfaces for mobile applications to enhance user experience.",
   },
   {
-    title: "Natural Language Processing",
-    icon: "N",
+    title: "Native Mobile Development",
+    icon: "📱",
     description:
-      "Building systems that can understand, interpret, and generate human language.",
+      "Building high-performance mobile apps using native platforms like Swift for iOS and Kotlin/Java for Android.",
   },
   {
-    title: "Web Development",
-    icon: "W",
+    title: "Cross-Platform Development",
+    icon: "⚙️",
     description:
-      "Designing and building responsive, interactive websites and web applications using modern technologies.",
+      "Developing mobile applications that run seamlessly on multiple platforms using frameworks like Flutter and React Native.",
   },
   {
-    title: "Mobile App Development",
-    icon: "M",
+    title: "Mobile App Performance Optimization",
+    icon: "🚀",
     description:
-      "Creating intelligent mobile applications with seamless user experiences.",
+      "Improving app responsiveness, reducing load times, and optimizing battery and memory usage for better performance.",
   },
   {
-    title: "Machine Learning",
-    icon: "M",
+    title: "Mobile Backend Integration",
+    icon: "🔗",
     description:
-      "Implementing algorithms that allow systems to learn and improve from experience.",
+      "Integrating mobile apps with backend services and APIs for data synchronization, authentication, and cloud storage.",
   },
   {
-    title: "Artificial Intelligence",
-    icon: "A",
+    title: "App Store Deployment & Maintenance",
+    icon: "📦",
     description:
-      "Developing custom AI models and solutions for various business needs and applications.",
+      "Managing app submission, updates, and compliance with App Store and Google Play guidelines for smooth releases.",
   },
 ];
 
@@ -55,8 +55,8 @@ export default function SkillsComponent() {
 
   return (
     <div id="skills">
-      <div className="bg-gradient-to-t from-[#f3f4f6] to-[#f9fafb] md:py-10  px-4">
-        <h2 className="text-4xl font-bold  inter  md:text-5xl lg:text-6xl inter text-center text-[#009999] mb-10 pt-10">
+      <div className="bg-gradient-to-t from-[#f3f4f6] to-[#f9fafb] md:py-20 py-10  px-4">
+        <h2 className="text-4xl font-bold  inter  md:text-5xl lg:text-6xl inter text-center text-[#009999] mb-10">
           My Skills
         </h2>
         <div

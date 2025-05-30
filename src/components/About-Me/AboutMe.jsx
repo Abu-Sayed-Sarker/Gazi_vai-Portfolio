@@ -60,7 +60,7 @@ const AboutMe = () => {
           transition={{ duration: 0.8 }}
           className="max-w-xl  lg:text-left text-justify"
         >
-          <h2 className="text-4xl font-bold text-gray-900 mb-8 inter  md:text-5xl lg:text-6xl inter text-center">
+          <h2 className="text-4xl font-bold text-gray-900 mb-8 inter  md:text-5xl lg:text-6xl inter text-center md:text-left">
             About Me
           </h2>
           <h3 className="text-2xl font-semibold text-gray-700 mb-3 inter">

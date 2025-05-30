@@ -24,7 +24,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="text-4xl md:text-6xl font-bold"
         >
-          AI Developer
+          Professional
         </motion.h1>
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
@@ -32,7 +32,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-3xl md:text-6xl font-bold mt-4"
         >
-          Full-Stack App & Web Expert
+          Mobile App Developer
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}
@@ -40,9 +40,12 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-6 text-base md:text-2xl"
         >
-          AI Developer with expertise in building high-quality mobile apps{" "}
-          <br /> and web solutions. Focused on creating smart, efficient, and{" "}
-          <br /> scalable digital products.
+          Skilled Mobile App Developer with a strong background in building
+          high-performance, <br className="hidden lg:block" /> user-friendly
+          applications for iOS and Android. Experienced in React Native,
+          Flutter, and native development, with a{" "}
+          <br className="hidden lg:block" /> focus on clean code, intuitive
+          UI/UX, and scalable architecture.
         </motion.p>
         <motion.a
           href="#"

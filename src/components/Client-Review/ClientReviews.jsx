@@ -42,7 +42,7 @@ export default function ClientReviews() {
   }, []);
 
   return (
-    <div className="bg-gray-50 md:py-16 px-4 md:px-10">
+    <div className="bg-gray-50 pb-10 md:py-16 px-4 md:px-10">
       <h2 className="text-4xl font-bold  inter  md:text-5xl lg:text-6xl inter text-center text-[#000] mb-10 pt-10">
         Client Review
       </h2>

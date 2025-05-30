@@ -20,7 +20,7 @@ export default function GetInTouch() {
   return (
     <section
       id="contact"
-      className="flex flex-col items-center justify-center  md:py-16 px-6"
+      className="flex flex-col items-center justify-center pb-10  md:py-16 px-6"
     >
       <h2 className="text-4xl font-bold  inter  md:text-5xl lg:text-6xl inter text-center text-[#009999] mb-10 mt-10">
         Get In Touch

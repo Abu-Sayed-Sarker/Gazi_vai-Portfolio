@@ -90,28 +90,28 @@ export default function WorkExperienceCard() {
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-800">
                 <div className="flex items-center gap-2">
-                  <span className="text-teal-600 inter">●</span> Custom AI Model
-                  Development
+                  <span className="text-teal-600 inter">●</span> Custom Mobile
+                  App Development
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="text-teal-600 inter">●</span> Natural
-                  Language Processing
+                  <span className="text-teal-600 inter">●</span> Mobile App
+                  Performance Optimization
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="text-teal-600 inter">●</span> Machine
-                  Learning Integration
+                  <span className="text-teal-600 inter">●</span> Integration
+                  with Backend APIs and Services
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="text-teal-600 inter">●</span> AI Chatbot
-                  Development
+                  <span className="text-teal-600 inter">●</span> Mobile App
+                  Testing and QA Automation
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="text-teal-600 inter">●</span> Computer Vision
-                  Solutions
+                  <span className="text-teal-600 inter">●</span> Mobile App
+                  Security Best Practices
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="text-teal-600 inter">●</span> AI Consultation
-                  Services
+                  <span className="text-teal-600 inter">●</span> Mobile
+                  Analytics Integration
                 </div>
               </div>
             </div>
